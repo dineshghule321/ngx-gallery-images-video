@@ -1,6 +1,6 @@
 {
   "name": "ngx-gallery-images-video",
-  "version": "1.0.0",
+  "version": "3.0.1",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/dineshghule321/ngx-gallery-images-video"
@@ -13,7 +13,7 @@
     "postinstall": "ngcc",
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
