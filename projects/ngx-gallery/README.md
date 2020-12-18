@@ -29,7 +29,7 @@ import 'hammerjs';
 **If you are not using SystemJS you can skip this section.**
 ```
 map: {
-  'ngx-gallery-image-video': 'node_modules/ngx-gallery-image-video/bundles/ngx-gallery-image-video.umd.js',
+  'ngx-gallery-img-video': 'node_modules/ngx-gallery-img-video/bundles/ngx-gallery-img-video.umd.js',
 }
 ```
 
@@ -50,7 +50,7 @@ Angular Material is using `transform: translate3d(0,0,0);` in components styles.
 You can read more about this issue [here](https://github.com/angular/material2/issues/998)
 
 # Installation
-```npm install ngx-gallery-image-video --save```
+```npm install ngx-gallery-img-video --save```
 
 # NgxGalleryOptions
 
@@ -187,7 +187,7 @@ Examples for
 # Usage
 ````ts
 // app.module.ts
-import { NgxGalleryModule } from 'ngx-gallery-image-video';
+import { NgxGalleryModule } from 'ngx-gallery-img-video';
 ...
 @NgModule({
     imports: [
@@ -203,7 +203,7 @@ export class AppModule { }
 ````ts
 // app.component.ts
 import { Component, OnInit } from '@angular/core';
-import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery-image-video';
+import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery-img-video';
 ...
 
 @Component({

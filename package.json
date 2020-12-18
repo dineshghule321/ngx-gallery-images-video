@@ -1,13 +1,13 @@
 {
-  "name": "ngx-gallery-image-video",
+  "name": "ngx-gallery-img-video",
   "version": "1.0.0",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/dineshghule321/ngx-gallery-image-video"
+    "url": "https://github.com/dineshghule321/ngx-gallery-img-video"
   },
   "bugs": {
     "email": "dineshghule321@gmail.com",
-    "url": "https://github.com/dineshghule321/ngx-gallery-image-video/issues"
+    "url": "https://github.com/dineshghule321/ngx-gallery-img-video/issues"
   },
   "scripts": {
     "postinstall": "ngcc",
@@ -18,7 +18,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "publish":"npm publish --access public",
-    "unpublish":"npm unpublish ngx-gallery-image-video --force"
+    "unpublish":"npm unpublish ngx-gallery-img-video --force"
   },
   "private": false,
   "dependencies": {
