@@ -12,8 +12,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "allowedCommonJsDependencies": [],
-            "aot": true,
             "tsConfig": "projects/ngx-gallery/tsconfig.lib.json",
             "project": "projects/ngx-gallery/ng-package.json"
           },
