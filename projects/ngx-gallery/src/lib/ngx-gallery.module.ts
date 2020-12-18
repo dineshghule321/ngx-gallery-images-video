@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { NgxGalleryComponent } from './ngx-gallery.component';
 import { NgxGalleryPreviewComponent } from './ngx-gallery-preview/ngx-gallery-preview.component';
 import { NgxGalleryImageComponent } from './ngx-gallery-image/ngx-gallery-image.component';
@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [
     NgxGalleryComponent,
-    NgxGalleryPreviewComponent, 
+    NgxGalleryPreviewComponent,
     NgxGalleryImageComponent,
     NgxGalleryThumbnailsComponent,
     NgxGalleryActionComponent,
@@ -23,6 +23,7 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule
   ],
-  exports: [NgxGalleryComponent]
+  exports: [NgxGalleryComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA,NO_ERRORS_SCHEMA]
 })
 export class NgxGalleryModule { }

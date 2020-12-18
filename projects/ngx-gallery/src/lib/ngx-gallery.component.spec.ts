@@ -1,5 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { NgxGalleryComponent } from './ngx-gallery.component';
 
 describe('NgxGalleryComponent', () => {
@@ -8,7 +8,8 @@ describe('NgxGalleryComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgxGalleryComponent ]
+      declarations: [ NgxGalleryComponent ],
+      schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
     })
     .compileComponents();
   }));

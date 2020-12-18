@@ -1,12 +1,12 @@
 {
-    "name": "ngx-gallery-9",
+    "name": "ngx-gallery-image-video",
     "version": "1.0.6",
     "license": "MIT",
     "repository": {
-      "url": "https://github.com/SaeedSpate/ngx-gallery-9"
+      "url": "https://github.com/dineshghule321/ngx-gallery-image-video"
     },
     "bugs": {
       "email": "yazdani.zs@gmail.com",
-      "url": "https://github.com/SaeedSpate/ngx-gallery-9/issues"
+      "url": "https://github.com/dineshghule321/ngx-gallery-image-video/issues"
     }
 }
