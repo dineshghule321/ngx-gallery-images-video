@@ -1,6 +1,6 @@
 {
   "name": "ngx-gallery-img-video",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/dineshghule321/ngx-gallery-img-video"
@@ -17,9 +17,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "publish":"npm publish --access public",
-    "unpublish":"npm unpublish ngx-gallery-img-video --force",
-    "setVersion":"npm version 2.0.2"
+    "publish": "npm publish --access public",
+    "unpublish": "npm unpublish ngx-gallery-img-video --force",
+    "setVersion": "npm version 2.0.2"
   },
   "private": false,
   "dependencies": {
