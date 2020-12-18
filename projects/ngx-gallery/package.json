@@ -5,6 +5,9 @@
     "repository": {
       "url": "https://github.com/dineshghule321/ngx-gallery-image-video"
     },
+    "dependencies": {
+      "tslib": "^2.0.0"
+    },
     "bugs": {
       "email": "yazdani.zs@gmail.com",
       "url": "https://github.com/dineshghule321/ngx-gallery-image-video/issues"
