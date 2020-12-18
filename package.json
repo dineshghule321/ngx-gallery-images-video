@@ -10,6 +10,7 @@
     "url": "https://github.com/dineshghule321/ngx-gallery-image-video/issues"
   },
   "scripts": {
+    "postinstall": "ngcc",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
