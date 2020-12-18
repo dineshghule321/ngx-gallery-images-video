@@ -1,15 +1,15 @@
 {
-    "name": "ngx-gallery-img-video",
-    "version": "2.0.1",
+    "name": "ngx-gallery-imges-video",
+    "version": "2.0.0",
     "license": "MIT",
     "repository": {
-      "url": "https://github.com/dineshghule321/ngx-gallery-img-video"
+      "url": "https://github.com/dineshghule321/ngx-gallery-imges-video"
     },
     "dependencies": {
       "tslib": "^2.0.0"
     },
     "bugs": {
       "email": "dineshghule321@gmail.com",
-      "url": "https://github.com/dineshghule321/ngx-gallery-img-video/issues"
+      "url": "https://github.com/dineshghule321/ngx-gallery-imges-video/issues"
     }
 }
