@@ -239,8 +239,8 @@ export class NgxGalleryOptions implements INgxGalleryOptions {
         this.spinnerIcon = use(obj.spinnerIcon, 'fa fa-spinner fa-pulse fa-3x fa-fw');
         this.zoomInIcon = use(obj.zoomInIcon, 'fa fa-search-plus');
         this.zoomOutIcon = use(obj.zoomOutIcon, 'fa fa-search-minus');
-        this.rotateLeftIcon = use(obj.rotateLeftIcon, 'fa fa-rotate-left');
-        this.rotateRightIcon = use(obj.rotateRightIcon, 'fa fa-rotate-right');
+        this.rotateLeftIcon = use(obj.rotateLeftIcon, 'fa fa-undo');
+        this.rotateRightIcon = use(obj.rotateRightIcon, 'fa fa-redo');
         this.downloadIcon = use(obj.downloadIcon, 'fa fa-arrow-circle-down');
 
         if (obj && obj.actions && obj.actions.length) {
