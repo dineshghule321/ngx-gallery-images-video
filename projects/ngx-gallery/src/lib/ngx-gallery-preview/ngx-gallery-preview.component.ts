@@ -405,7 +405,14 @@ export class NgxGalleryPreviewComponent implements OnInit, OnChanges {
         }
     }
 
+    private resetAll(){
+        this.src = null;
+        this.changeDetectorRef.markForCheck();
+        this.changeDetectorRef.detectChanges();
+    }
+    
     private _show() {
+        this.resetAll();
         this.zoomValue = 1;
         this.rotateValue = 0;
         this.resetPosition();
