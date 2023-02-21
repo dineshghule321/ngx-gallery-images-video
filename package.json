@@ -1,60 +1,60 @@
 {
-  "name": "ngx-gallery-images-video",
-  "version": "4.0.3",
-  "license": "MIT",
-  "repository": {
-    "url": "https://github.com/dineshghule321/ngx-gallery-images-video"
-  },
-  "bugs": {
-    "email": "dineshghule321@gmail.com",
-    "url": "https://github.com/dineshghule321/ngx-gallery-images-video/issues"
-  },
-  "scripts": {
-    "postinstall": "ngcc",
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build --prod",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e",
-    "publish": "npm publish --access public",
-    "unpublish": "npm unpublish ngx-gallery-images-video --force"
-  },
-  "private": false,
-  "dependencies": {
-    "@angular-devkit/core": "^11.0.5",
-    "@angular/animations": "~11.0.5",
-    "@angular/common": "~11.0.5",
-    "@angular/compiler": "~11.0.5",
-    "@angular/core": "~11.0.5",
-    "@angular/forms": "~11.0.5",
-    "@angular/platform-browser": "~11.0.5",
-    "@angular/platform-browser-dynamic": "~11.0.5",
-    "@angular/router": "~11.0.5",
-    "rxjs": "^6.5.5",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.10.3"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1100.5",
-    "@angular/cli": "~11.0.5",
-    "@angular/compiler-cli": "~11.0.5",
-    "@angular/language-service": "~11.0.5",
-    "@types/jasmine": "~3.6.0",
-    "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.19.9",
-    "codelyzer": "^6.0.0",
-    "jasmine-core": "~3.6.0",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "~5.1.1",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage-istanbul-reporter": "~3.0.2",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "^1.5.0",
-    "ng-packagr": "^11.0.3",
-    "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
-    "typescript": "~4.0.5"
-  }
+    "name": "ngx-gallery-images-video",
+    "version": "4.0.3",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/dineshghule321/ngx-gallery-images-video"
+    },
+    "bugs": {
+        "email": "dineshghule321@gmail.com",
+        "url": "https://github.com/dineshghule321/ngx-gallery-images-video/issues"
+    },
+    "scripts": {
+        "postinstall": "ngcc",
+        "ng": "ng",
+        "start": "ng serve",
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e",
+        "publish": "npm publish --access public",
+        "unpublish": "npm unpublish ngx-gallery-images-video --force"
+    },
+    "private": false,
+    "dependencies": {
+        "@angular-devkit/core": "^14.2.10",
+        "@angular/animations": "^14.2.12",
+        "@angular/common": "^14.2.12",
+        "@angular/compiler": "^14.2.12",
+        "@angular/core": "^14.2.12",
+        "@angular/forms": "^14.2.12",
+        "@angular/platform-browser": "^14.2.12",
+        "@angular/platform-browser-dynamic": "^14.2.12",
+        "@angular/router": "^14.2.12",
+        "rxjs": "^6.5.5",
+        "tslib": "^2.5.0",
+        "zone.js": "~0.11.8"
+    },
+    "devDependencies": {
+        "@angular-devkit/build-angular": "^14.2.10",
+        "@angular/cli": "^14.2.10",
+        "@angular/compiler-cli": "^14.2.12",
+        "@angular/language-service": "^14.2.12",
+        "@types/jasmine": "~3.6.0",
+        "@types/jasminewd2": "~2.0.3",
+        "@types/node": "^12.19.9",
+        "codelyzer": "^6.0.0",
+        "jasmine-core": "~3.6.0",
+        "jasmine-spec-reporter": "~5.0.0",
+        "karma": "~6.4.1",
+        "karma-chrome-launcher": "~3.1.0",
+        "karma-coverage-istanbul-reporter": "~3.0.2",
+        "karma-jasmine": "~4.0.0",
+        "karma-jasmine-html-reporter": "^1.5.0",
+        "ng-packagr": "^14.2.2",
+        "protractor": "~7.0.0",
+        "ts-node": "~8.3.0",
+        "tslint": "~6.1.0",
+        "typescript": "~4.6.4"
+    }
 }

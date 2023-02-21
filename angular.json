@@ -44,7 +44,6 @@
       }
     }
   },
-  "defaultProject": "ngx-gallery",
   "cli": {
     "analytics": "455fbb66-496d-421c-86a3-d0359218388d"
   }
